@@ -1,2 +1,2 @@
 # clojure_practice
-clojureのれんしゅう
+clojureの練習
