@@ -1,6 +1,9 @@
-num = int(input('正の整数を入力してください：'))
-p = 1
+# -*- coding: utf-8 -*-
+num = int(input('何番目までのフィボナッチ数を表示しますか？整数で入力してください : '))
 
-while p < num:
-  print(p)
-  p = p + p
+a, b = 0, 1
+for i in range(0,num):
+  print(b)
+  a, b = b, a + b
+  if b == num:
+    break
